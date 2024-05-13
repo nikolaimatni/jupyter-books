@@ -60,7 +60,6 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'my-markdown-notebook';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Notebooks with MyST Markdown" href="markdown-notebooks.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -122,6 +121,8 @@
       
       
       
+        
+      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -175,11 +176,13 @@
                 </a>
             </li>
         </ul>
-        <ul class="current nav bd-sidenav">
+        <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="markdown.html">Markdown Files</a></li>
 <li class="toctree-l1"><a class="reference internal" href="notebooks.html">Content with notebooks</a></li>
-<li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">MyST Markdown Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="math.html">Inline Math</a></li>
+
+
+
 </ul>
 
     </div>
@@ -446,7 +449,7 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="myst-markdown-notebooks">
+  <section id="myst-markdown-notebooks">
 <h1>MyST Markdown Notebooks<a class="headerlink" href="#myst-markdown-notebooks" title="Link to this heading">#</a></h1>
 <p>MyST Markdown Notebooks allow you to write your Jupyter Notebook
 entirely in markdown using the
@@ -501,12 +504,11 @@ print(&quot;Here is a Python cell&quot;)
 <span class="sb">```</span>
 </pre></div>
 </div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The kernel that your code cells use is determined by the notebook-level
+<p>:::{note}
+The kernel that your code cells use is determined by the notebook-level
 metadata for your MyST Notebook file. If no kernel is given, then the default kernel
-will be used.</p>
-</div>
+will be used.
+:::</p>
 <section id="syntax-for-code-cells">
 <h3>Syntax for code cells<a class="headerlink" href="#syntax-for-code-cells" title="Link to this heading">#</a></h3>
 <p>When writing MyST Notebooks, use the following syntax to define a code cell:</p>
@@ -782,15 +784,6 @@ Jupyter Lab and the Classic Notebook interface. For more information, see
                 <footer class="prev-next-footer">
                   
 <div class="prev-next-area">
-    <a class="left-prev"
-       href="markdown-notebooks.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Notebooks with MyST Markdown</p>
-      </div>
-    </a>
 </div>
                 </footer>
               
