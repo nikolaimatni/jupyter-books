@@ -7,8 +7,7 @@ project:
   keywords: []
   authors: [Nikolai Matni]
   github: https://github.com/nikolaimatni/jupyter-books
-  jupyter:
-    lite: true
+  jupyter: true
   abbreviations:
     MyST: Markedly Structured Text
   math:

@@ -3,3 +3,4 @@ matplotlib
 numpy
 altair
 vega_datasets
+jupyterlab_myst
