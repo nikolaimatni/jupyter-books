@@ -1,0 +1,5 @@
+format: jb-book
+root: 01-paper
+chapters:
+  - file: 01-paper
+  - file: 02-notebook
